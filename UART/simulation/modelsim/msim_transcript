@@ -1,0 +1,75 @@
+# Reading D:/FPGA/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# do UART_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\FPGA\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\FPGA\modelsim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Mein/Desktop/TUTORIAL/UART/UART.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0d Compiler 2012.01 Jan 18 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UART
+# -- Compiling architecture MAIN of UART
+# vcom -93 -work work {C:/Users/Mein/Desktop/TUTORIAL/UART/TX.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0d Compiler 2012.01 Jan 18 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TX
+# -- Compiling architecture MAIN of TX
+# vcom -93 -work work {C:/Users/Mein/Desktop/TUTORIAL/UART/RX.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0d Compiler 2012.01 Jan 18 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RX
+# -- Compiling architecture MAIN of RX
+# 
+#  
+vsim -voptargs=+acc work.uart
+# vsim -voptargs=+acc work.uart 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart(main)
+# Loading work.tx(main)
+# Loading work.rx(main)
+force -freeze sim:/uart/CLOCK_50 1 0, 0 {0 ps} -r 1
+force -freeze sim:/uart/SW 1101100100 0
+add wave  \
+sim:/uart/C1/CLK \
+sim:/uart/C1/TX_LINE \
+sim:/uart/C1/DATA \
+sim:/uart/C1/START \
+sim:/uart/C1/BUSY \
+sim:/uart/C1/TX_FLG \
+sim:/uart/C1/PRSCL \
+sim:/uart/C1/INDEX \
+sim:/uart/C1/DATAFLL
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/uart/C1/CLK 1 0, 0 {0 ps} -r 1
+run
+run
+run
+run
+run
+run

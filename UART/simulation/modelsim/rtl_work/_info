@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mein\Desktop\TUTORIAL\UART\simulation\modelsim
+Erx
+Z1 w1375639833
+Z2 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z3 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Mein\Desktop\TUTORIAL\UART\simulation\modelsim
+Z6 8C:/Users/Mein/Desktop/TUTORIAL/UART/RX.vhd
+Z7 FC:/Users/Mein/Desktop/TUTORIAL/UART/RX.vhd
+l0
+L5
+Vc=8SFGj<ZNO=Gz]_>0>Sj1
+!s100 SU^d;KoRi_Oh3ETBRzI<z1
+Z8 OV;C;10.0d;49
+31
+Z9 !s108 1375752572.365000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mein/Desktop/TUTORIAL/UART/RX.vhd|
+Z11 !s107 C:/Users/Mein/Desktop/TUTORIAL/UART/RX.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Amain
+R2
+R3
+R4
+DEx4 work 2 rx 0 22 c=8SFGj<ZNO=Gz]_>0>Sj1
+l20
+L15
+V>RILUgE;a47BGdgDAYB?f3
+!s100 72@KQKfN[Qh@TA@O^egT02
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Etx
+Z14 w1375638257
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Mein/Desktop/TUTORIAL/UART/TX.vhd
+Z16 FC:/Users/Mein/Desktop/TUTORIAL/UART/TX.vhd
+l0
+L7
+VX_W`2m]Y9oQDCYO1?f0lE2
+R8
+31
+Z17 !s108 1375752572.205000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mein/Desktop/TUTORIAL/UART/TX.vhd|
+Z19 !s107 C:/Users/Mein/Desktop/TUTORIAL/UART/TX.vhd|
+R12
+R13
+!s100 BeUOfTT[<i_JH:1GD57b82
+Amain
+R2
+R3
+R4
+DEx4 work 2 tx 0 22 X_W`2m]Y9oQDCYO1?f0lE2
+l22
+L17
+VRYCOilXz>0>KaiKMd=<>Y0
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 0@IOVFRF<z2@FQG4_@CMb1
+Euart
+Z20 w1375637558
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Mein/Desktop/TUTORIAL/UART/UART.vhd
+Z22 FC:/Users/Mein/Desktop/TUTORIAL/UART/UART.vhd
+l0
+L6
+VoTijfgWZi8bCNaHF6:@_Q1
+R8
+31
+Z23 !s108 1375752571.945000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mein/Desktop/TUTORIAL/UART/UART.vhd|
+Z25 !s107 C:/Users/Mein/Desktop/TUTORIAL/UART/UART.vhd|
+R12
+R13
+!s100 mGCJ^UoV>dE2D>HDcbAIJ2
+Amain
+R2
+R3
+R4
+DEx4 work 4 uart 0 22 oTijfgWZi8bCNaHF6:@_Q1
+l44
+L18
+V6fU>?6Q[5=_i:8kVn:;o_2
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 EnEJU[01AnBQBM8ZMQ0CD1
